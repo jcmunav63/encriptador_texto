@@ -1,1 +1,124 @@
 /* Estilos CSS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+  background-color: #f3f5fc;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 32;
+  line-height: 150%;
+}
+
+body {
+  width: 90%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  display: flex;
+}
+
+h1 {
+  color: #0a3871;
+  margin-left: 7%;
+  font-weight: 600;
+}
+
+h6 {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.logo {
+  padding-top: 15px;
+  /* padding-left: 15px; */
+  width: auto;
+  height: 50%;
+}
+
+.text-area {
+  font-size: 1.8rem;
+  border-color: #d0d0d0;
+  border-radius: 6px;
+  color: #0a3871;
+  text-transform: lowercase;
+  margin-left: 40px;
+}
+
+.text-area:focus {
+  border-color: #888888;
+  outline: #888888;
+}
+
+.mensaje {
+  background-color: #ffffff;
+  background-image: url("images/joven.png");
+  background-repeat: no-repeat;
+  font-size: 1.8rem;
+  border: none;
+  border-radius: 6px;
+  color: #0a7120;
+}
+
+.mensaje:focus {
+  outline: none;
+}
+
+.text-area::placeholder {
+  font-size: 1.8rem;
+}
+
+.btn-encriptar, .btn-desencriptar, .btn-copiar {
+  font-size: 1.6rem;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.botones {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-encriptar {
+  background-color: #0a3871;
+  border: 1px solid #0a3871;
+  color: #ffffff;
+  border-radius: 24px;
+  cursor: pointer;
+  height: 67px;
+  width: 250px;
+}
+
+.btn-desencriptar {
+  background-color: #d0d0d0;
+  border: 1px solid #0a3871;
+  color: #0a3871;
+  border-radius: 24px;
+  cursor: pointer;
+  height: 67px;
+  width: 250px;
+}
+
+.btn-copiar {
+  margin-top: 20px;
+  background-color: #ffffff;
+  border: 1px solid #0a3871;
+  color: #0a3871;
+  border-radius: 24px;
+  cursor: pointer;
+  height: 67px;
+  width: 336px;
+}
+
+.boton {
+  display: flex;
+  justify-content: center;
+}
+
